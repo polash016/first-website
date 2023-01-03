@@ -1,0 +1,29 @@
+h3{
+    color: mediumvioletred;
+    text-decoration: underline wavy black;
+}
+p{
+    color: blueviolet;
+}
+.page-title{
+    color: brown;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+     height: 200px;
+     background-image: url('photo.jpg');
+     background-image: url('../polash.jpg');
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-blend-mode: multiply;
+}
+span{
+    border: 1px;
+    height: 200px;
+    width: 100px;
+    margin: auto;
+    color: black;
+    box-shadow: 10px 20px 10px gray;
+}

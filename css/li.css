@@ -1,0 +1,10 @@
+ol li{
+    color: burlywood;
+    font-size: 20px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    display: inline;
+}
+
