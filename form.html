@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <style>
+        label{
+          display: block;
+        }
+      </style>
+</head>
+<body>
+    <form>
+        
+        <label for="name">Your Name:
+            <input type="text" name="name" id="name" placeholder="Name">
+        </label>
+            <label for="email">Your Email:
+                <input type="email" name="mail" id="email" placeholder="Give Email">
+            </label>
+                <label for="phone">Your Phone:
+                    <input type="number" name="phone" id="phone" 
+            placeholder="Phone Number">
+        </label>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male">
+                Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">
+                Female
+            </label>
+            <label for="other">
+                <input type="radio" name="gender" id="other">
+                Other
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select prefered area</legend>
+            <label for="dhaka">
+                <input type="checkbox" name="area" id="dhaka">
+                Dhaka
+            </label>
+            <label for="chatgaon">
+                <input type="checkbox" name="area" id="chatgao">
+                Chittagong
+            </label>
+            <label for="khulna">
+                <input type="checkbox" name="area" id="khulna">
+                Khulna
+            </label>
+        </fieldset>
+        <fieldset>Comment</fieldset>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        
+        
+    </form>
+</body>
+</html>
